@@ -49,7 +49,7 @@ npx prisma init
 
 4. **Atualize o arquivo `.env` com a URL do banco**
 ```env
-DATABASE_URL="file:./dev.db" # ou PostgreSQL, conforme usado
+DATABASE_URL="file:./dev.db" # ou MySQL, conforme usado
 ```
 
 5. **Crie o banco e rode as migrations**
