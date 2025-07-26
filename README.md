@@ -24,7 +24,7 @@ Esta é uma API REST construída com **Node.js**, **Express** e **Prisma ORM**, 
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
 - [Prisma ORM](https://www.prisma.io/)
-- [SQLite ou PostgreSQL] – para persistência de dados
+- [MySQL] – para persistência de dados
 - Arquitetura **MVC (Model-View-Controller)**
 
 ---
