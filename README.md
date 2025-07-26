@@ -132,9 +132,4 @@ Content-Type: application/json
 Gabriel Reis  
 [github.com/Reistr12](https://github.com/Reistr12)
 
----
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
