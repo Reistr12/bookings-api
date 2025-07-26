@@ -1,13 +1,16 @@
 const express = require('express');
+const { CourtController } = require('../controllers/court.controller');
+const { BookingController } = require('../controllers/booking.controller');
+
 const router = express.Router();
-const { courtController, bookingController } = require('../controllers/reservation');
 
-// Rotas para quadras
-router.get('/courts', courtController.getAllCourts);
-router.post('/courts', courtController.createCourt);
+const courtController = new CourtController();
+const bookingController = new BookingController();
 
-// Rotas para reservas
-router.get('/bookings', bookingController.showAllBookings);
-router.post('/bookings', bookingController.createBooking);
+router.get('/courts', (req, res) => courtController.getAllCourts(req, res));
+router.post('/courts', (req, res) => courtController.createCourt(req, res));
+
+router.get('/bookings', (req, res) => bookingController.showAllBookings(req, res));
+router.post('/bookings', (req, res) => bookingController.createBooking(req, res));
 
 module.exports = router;
