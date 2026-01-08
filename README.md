@@ -33,7 +33,7 @@ Esta é uma API REST construída com **Node.js**, **Express** e **Prisma ORM**, 
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/reservas-api.git
+git clone https://github.com/Reistr12/reservas-api.git
 cd reservas-api
 ```
 
